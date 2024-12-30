@@ -47,7 +47,7 @@ Taja (Tājā) means "fresh" in Bengali. This app transforms surplus into smiles 
    npm install
    ```
 6. Start the client:
- ```bash
+   ```bash
    npm start
    ```
 
