@@ -1,6 +1,7 @@
 # Taja
 
 Taja (Tājā) means "fresh" in Bengali. This app transforms surplus into smiles by connecting homegrown produce with people who truly value it. Fresh, local, and straight from the source.  
+
 ![Taja](media/taja.gif)
 
 ## Features  
