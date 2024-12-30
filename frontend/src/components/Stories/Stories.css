@@ -1,0 +1,50 @@
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 49px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.stories {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    z-index: 1;
+    padding-left: 50px;
+    margin-top: 20px;
+}
+
+.container h1 {
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.hero-image {
+    width: 50%;
+    z-index: 1;
+    animation: fadeIn 3s;
+}
+
+@media (max-width: 1050px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+    .stories {
+        align-items: center;
+    }
+    .hero-image {
+        margin-top: 50px;
+        animation: fadeIn 3s;
+    }
+}
